@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.section {
+    position: relative;
+    max-width: 1280px;
+    padding: 0 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    outline: 1px solid purple;
+}
+
+.slide {
+    position: relative;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 24px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.slide-container {
+    position: relative;
+    width: 100%;
+    outline: 1px solid purple;
+}
+
+.slide .swiper-slide {
+    width: auto;
+    max-width: 300px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+}
+.card-media {
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+.card-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 0;
+}
+.card-body {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+}
+.card-category {
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: red;
+    text-transform: uppercase;
+}
+.card-category span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-category i.icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+    background-color: red;
+}
+h4.card-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.card-actions {
+    position: relative;
+    margin-top: auto;
+    text-align: left;
+}
+.card-action {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-action span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1;
+    color: #aaa;
+}
+.card-action i.icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    background-color: #aaa;
+}
