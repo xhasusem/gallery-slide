@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    padding-top: 40px;
+    padding-top: 24px;
     font-family: 'Open Sans';
     font-weight: 400;
 }
@@ -13,8 +13,44 @@ body {
     padding: 0 10px;
     margin: 0 auto;
     box-sizing: border-box;
-    
-    outline: 1px solid purple;
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-actions {
+    position: relative;
+    text-align: right;
+}
+.section-actions span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.section-actions span:focus,
+.section-actions span:active,
+.section-actions span:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+h2.headline {
+    margin-top: 0;
+    line-height: 1;
+    font-size: 24px;
+    color: red;
+    margin-bottom: 12px;
+}
+
+hr {
+    margin-top: 0;
+    height: 1px;
+    background-color: #ddd;
+    border: 0;
+    margin-bottom: 16px;
 }
 
 .slide {
@@ -28,7 +64,7 @@ body {
 .slide-container {
     position: relative;
     width: 100%;
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
 }
 
 .slide .swiper-slide {
