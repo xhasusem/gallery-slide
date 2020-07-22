@@ -1,63 +1,9 @@
 
-body {
-    margin: 0;
-    padding: 0;
-    padding-top: 24px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
-
-.section {
-    position: relative;
-    max-width: 1280px;
-    padding: 0 10px;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.section-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.section-actions {
-    position: relative;
-    text-align: right;
-}
-.section-actions span {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 12px;
-    cursor: pointer;
-}
-.section-actions span:focus,
-.section-actions span:active,
-.section-actions span:hover {
-    outline: none;
-    text-decoration: none;
-}
-
-h2.headline {
-    margin-top: 0;
-    line-height: 1;
-    font-size: 24px;
-    color: red;
-    margin-bottom: 12px;
-}
-
-hr {
-    margin-top: 0;
-    height: 1px;
-    background-color: #ddd;
-    border: 0;
-    margin-bottom: 16px;
-}
-
 .slide {
     position: relative;
     margin-right: -10px;
     margin-left: -10px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     padding: 0 10px;
     box-sizing: border-box;
 }
